@@ -1,0 +1,29 @@
+ #include <stdio.h>
+
+int main() {
+    int val;
+    printf("Input an integer:");
+    scanf("%d",&val);
+   if(val>=0){
+        if(val%2==0 || val==0){
+               printf("Positive even.");
+
+       }else{
+           printf("Positive odd.");
+       }
+       
+   }else{
+       if(val%2==0){
+               printf("Negative even.");
+
+       }else{
+           printf("Negative odd.");
+       }
+   }
+        
+    
+    
+   
+
+    return 0;
+}

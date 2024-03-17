@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+  int x,y;
+  float divide;
+  printf("Input two numbers: \n");
+  printf("x:");
+  scanf("%d",&x);
+  printf("y:");
+  scanf("%d",&y);
+  if(x%y==0){
+      divide=x/y;
+      printf("%.1f",divide);
+      
+    }else{
+        printf("Division is not possible");
+    }
+    
+    
+   
+  
+  
+    return 0;
+}

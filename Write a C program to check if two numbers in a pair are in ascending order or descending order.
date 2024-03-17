@@ -1,0 +1,28 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int n1,n2;
+    printf("Input first number of the pair:");
+    scanf("%d",&n1);
+    printf("Input second number of the pair:");
+    scanf("%d",&n2);
+    if(n1>=n2){
+        if(n1>n2){
+            
+            printf("The pair is in descending order!");
+        }else{
+            printf("Equal");
+        }
+            
+        
+        
+    }else{
+     printf("The pair is in ascending order!");
+
+    }
+    
+    
+
+    return 0;
+}

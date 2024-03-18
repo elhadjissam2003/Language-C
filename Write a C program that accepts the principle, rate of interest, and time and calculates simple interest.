@@ -1,0 +1,20 @@
+ #include <stdio.h>
+#define AL 6
+int main() {
+  
+ int p,r,t;
+ float res;
+  printf("Input Data:");
+    printf("p=");
+  scanf("%d",&p);
+   printf("r=");
+  scanf("%d",&r);
+   printf("t=");
+  scanf("%d",&t);
+  printf("Input principle, Rate of interest & time to find simple interest:\n");
+  res=p*((float)r/100)*t;
+  printf("Simple interest = %.f",res);
+  
+   
+    return 0;
+}

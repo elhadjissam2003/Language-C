@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main() {
+   float sum=0;
+   for(int i=1;i<=50;i++){
+       if(i!=50){
+                  printf("1/%d+",i);
+
+       }else{
+                             printf("1/%d=",i);
+
+       
+       }
+       sum+=(float)1/i;
+
+       
+       
+   
+   } 
+   printf("%.2f",sum);
+
+   
+
+    
+    
+    
+
+    return 0;
+}

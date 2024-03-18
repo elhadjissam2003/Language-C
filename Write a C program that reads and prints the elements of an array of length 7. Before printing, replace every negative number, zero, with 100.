@@ -1,0 +1,24 @@
+#include <stdio.h>
+ 
+
+int main() {
+   int arr[7];
+   int n;
+   printf("Members : ");
+   scanf("%d",&n);
+   printf("Input the %d members of the array:\n",n);
+   for(int i=0;i<n;i++){
+       scanf("%d",&arr[i]);
+       if(arr[i]==0 || arr[i]<0){
+           arr[i]=100;
+       
+       }
+       
+   }
+    for(int i=0;i<n;i++){
+        printf("n[%d]=%d\n",i,arr[i]);
+
+       
+   }
+    return 0;
+}

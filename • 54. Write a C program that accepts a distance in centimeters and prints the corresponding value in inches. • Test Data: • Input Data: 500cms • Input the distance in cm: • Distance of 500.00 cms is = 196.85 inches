@@ -1,0 +1,13 @@
+ #include <stdio.h>
+ int main() {
+     float d;
+     float cov;
+     printf("Input the distance in cm:");
+     scanf("%f",&d);
+     cov=d*0.3937 ;
+     printf("Distance of %.2f cms is = %.2f inches",d,cov);
+  
+ 
+   
+    return 0;
+}

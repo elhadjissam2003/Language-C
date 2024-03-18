@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main() {
+  int mark;
+  int sum=0;
+  float average;
+  int compt =0;
+    printf("Input Mathematics marks (0 to terminate):");
+while(mark!=0){
+    scanf("%d",&mark);
+    sum+=mark;
+    compt++;
+    
+}
+average = (float)sum /(compt-1);
+printf("Average marks in Mathematics: %.2f",average);
+
+        
+ 
+    
+    
+    
+
+    return 0;
+}

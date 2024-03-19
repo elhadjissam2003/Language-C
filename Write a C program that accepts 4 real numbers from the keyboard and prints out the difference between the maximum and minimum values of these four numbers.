@@ -1,0 +1,35 @@
+ #include <stdio.h>
+
+int main() {
+    float n[4];
+    float min,max;
+ 
+
+printf("Input four numbers: ");
+
+for(int i =0;i<4;i++){
+    scanf("%f",&n[i]);
+    if(i==0){
+        min=n[i];
+        max=n[i];
+    }
+    
+        
+    
+}
+for(int i =1;i<4;i++){
+    if(n[i]<min){
+        min=n[i];
+    }else if(n[i]>max){
+        max=n[i];        
+    }
+    
+    
+}
+printf("Difference is %.4f",max-min);
+
+
+
+
+    return 0;
+}

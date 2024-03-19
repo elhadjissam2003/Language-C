@@ -1,0 +1,11 @@
+ #include <stdio.h>
+
+int main() {
+int val;
+
+printf("Integer value=");
+scanf("%d",&val);
+printf("The left shifted data is= %d",(val<<2));
+
+    return 0;
+}
